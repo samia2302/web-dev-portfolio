@@ -1,0 +1,206 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles */
+.secondary-bg{
+    background-color: rgba(255, 248, 243, 1);
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 12px 22px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+}
+.section-title{
+    color: rgba(24, 24, 24, 1);
+font-style: Bold;
+font-size: 28px;
+font-weight: 600;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+.section-description{
+    color: rgba(117, 117, 117, 1);
+font-style: Regular;
+font-size: 15px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+.text-center{
+  text-align: center;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px 0px 150px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-greetings{
+font-family: Open Sans;
+font-style: SemiBold;
+font-size: 35px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-title{
+font-style: Bold;
+font-size: 55px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-description{
+    color: rgba(117, 117, 117, 1);
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.banner-profile{
+    width: 500px;
+}
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+/* main styles */
+main{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 80px 145px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+}
+/* what i do */
+.skills-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.skill{
+    padding: 20px;
+    border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgba(255, 255, 255, 1);
+}
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 20px;
+}
+.experience-description{
+    color: rgba(117, 117, 117, 1);
+font-style: Regular;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.experience-sub-title{
+    color: rgba(117, 117, 117, 1);
+font-style: SemiBold;
+font-size: 13px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.resume-download{
+    margin-top: 50px;
+}
+/* footer styles */
+footer{
+    padding: 100px 200px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="email"], footer input[type="text"]{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 15px;
+}
+.form-submit{
+    margin-top: 20px;
+}
+textarea{
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.footer-description{
+    text-align: left;
+}
