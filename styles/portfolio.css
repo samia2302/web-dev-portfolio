@@ -204,3 +204,34 @@ textarea{
 .footer-description{
     text-align: left;
 }
+
+/* responsive media query */
+@media screen and (max-width:576px) {
+    .skills-container, .resume-container, footer, .about-items, .banner, nav, nav > ul{
+        flex-direction: column;
+    }
+    nav > ul{
+        gap: 20px;
+    }
+    footer, .about{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="email"], footer input[type="text"]{
+        width: calc(100% - 40px);
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner-profile{
+        width: 100%;
+    }
+    .btn-primary{
+        margin-bottom: 10px;
+    }
+}
